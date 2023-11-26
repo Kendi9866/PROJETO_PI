@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-}
+
 
 header{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -34,20 +31,25 @@ nav ul li {
     text-transform: uppercase;
     font-size: 20px;
     margin-top: 20px;
+    
+    
+}
+
+.title-main p{
+    border-bottom: #4481EB solid 1px;
 }
 
 .conteiner-main{
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 20px;
     align-items: center;
-    height: 500px;
+    margin-top: 160px;
 }
 
-.text-main p{
+.text-main {
     flex-direction: column;
     margin-left: 20px;
-    font-family: Nikukyu;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +57,6 @@ nav ul li {
     letter-spacing: 2px;
 }
 
-.img-main img{
-    width: 500px;
+.video-main{
     margin-right: 20px;
 }
